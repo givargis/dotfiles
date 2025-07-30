@@ -1,0 +1,27 @@
+#!/bin/bash
+
+find $HOME/ -name Library -prune -o -name "#*"              -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name "*~"              -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".#*"             -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".*~"             -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".DS_Store"       -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".bash_history"   -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".bash_logout"    -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".bash_profile"   -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".bash_sessions"  -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".cache"          -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".cups"           -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".emacs.d"        -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".keras"          -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".lesshst"        -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".lldb"           -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".matplotlib"     -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".python_history" -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".ssh"            -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".viminfo"        -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".wget-hsts"      -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".zsh_history"    -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name ".zsh_sessions"   -exec rm -rf '{}' \;
+find $HOME/ -name Library -prune -o -name "__MACOSX"        -exec rm -rf '{}' \;
+
+clear

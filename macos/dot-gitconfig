@@ -1,0 +1,6 @@
+[user]
+	name = givargis
+	email = givargis@uci.edu
+
+[core]
+	editor = emacs
